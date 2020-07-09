@@ -35,6 +35,7 @@
         'anchor':'~/dialogs/anchor/anchor.html',
         'insertimage':'~/dialogs/image/image.html',
         'link':'~/dialogs/link/link.html',
+        'link_sel':'~/dialogs/link_sel/link_sel.html',
         'spechars':'~/dialogs/spechars/spechars.html',
         'searchreplace':'~/dialogs/searchreplace/searchreplace.html',
         'map':'~/dialogs/map/map.html',
@@ -62,7 +63,7 @@
         'bold', 'italic', 'underline', 'fontborder', 'touppercase', 'tolowercase',
         'strikethrough', 'subscript', 'superscript', 'source', 'indent', 'outdent',
         'blockquote', 'pasteplain', 'pagebreak',
-        'selectall', 'print','horizontal', 'removeformat', 'time', 'date', 'unlink',
+        'selectall', 'print','horizontal', 'removeformat', 'time', 'date', 'unlink','link_sel',
         'insertparagraphbeforetable', 'insertrow', 'insertcol', 'mergeright', 'mergedown', 'deleterow',
         'deletecol', 'splittorows', 'splittocols', 'splittocells', 'mergecells', 'deletetable', 'drafts'];
 
@@ -182,7 +183,7 @@
 
     var dialogBtns = {
         noOk:['searchreplace', 'help', 'spechars', 'webapp','preview'],
-        ok:['attachment', 'anchor', 'link', 'insertimage', 'map', 'gmap', 'insertframe', 'wordimage',
+        ok:['attachment', 'anchor', 'link','link_sel', 'insertimage', 'map', 'gmap', 'insertframe', 'wordimage',
             'insertvideo', 'insertframe', 'edittip', 'edittable', 'edittd', 'scrawl', 'template', 'music', 'background', 'charts']
     };
 

@@ -89,6 +89,7 @@ var UEDITOR_CONFIG2 = {
         'image': '~/dialogs/image/image.html',
         'inserttable': '~/dialogs/table/table.html',
         'link': '~/dialogs/link/link.html',
+        'link_sel': '~/dialogs/link_sel/link.html',
         'emoticon': '~/dialogs/emoticon/emoticon.html',
         'spechars': '~/dialogs/spechars/spechars.html',
         'searchreplace': '~/dialogs/searchreplace/searchreplace.html',

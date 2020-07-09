@@ -40,3 +40,7 @@
     opacity: 0.3;
     filter: alpha(opacity = 30);
 }
+
+.edui-for-link_sel  .edui-icon {
+    background: url(../images/link_sel.png) !important;
+}
